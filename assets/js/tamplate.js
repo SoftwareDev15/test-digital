@@ -22,11 +22,11 @@ class MyHeader extends HTMLElement{
                 <li><a href="ai.html">AI (Artificial Intelligent)</a></li>
               </ul>
             </li>
-            <li><a class="nav-link scrollto" href="#">Blogs</a></li>
-            <li><a class="nav-link scrollto" href="#services">Join Us</a></li>
-            <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-            <li><a class="nav-link scrollto" href="#team">Contact Us</a></li>
-            <li><a class="nav-link scrollto" href="#footer">Helps</a></li>
+            <li><a class="nav-link scrollto" href="blogs.html">Blogs</a></li>
+            <li><a class="nav-link scrollto" href="join-us.html">Join Us</a></li>
+            <li><a class="nav-link scrollto " href="portfolio.html">Portfolio</a></li>
+            <li><a class="nav-link scrollto" href="contact-us">Contact Us</a></li>
+            <li><a class="nav-link scrollto" href="helps.html">Helps</a></li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
