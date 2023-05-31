@@ -1,0 +1,78 @@
+"ID","Disable","Account Name","Account Number","Is Group","Company","Root Type","Report Type","Currency","Inter Company Account","Parent Account","Account Type","Rate","Frozen","Balance must be","Old Parent","Include in gross"
+"Application of Funds (Assets) - C",0,"Application of Funds (Assets)","",1,"Company_Test2","Asset","Balance Sheet","THB",0,"","",0.0,"No","","",0
+"Current Assets - C",0,"Current Assets","",1,"Company_Test2","Asset","Balance Sheet","THB",0,"Application of Funds (Assets) - C","",0.0,"No","","",0
+"Accounts Receivable - C",0,"Accounts Receivable","",1,"Company_Test2","Asset","Balance Sheet","THB",0,"Current Assets - C","",0.0,"No","","",0
+"Debtors - C",0,"Debtors","",0,"Company_Test2","Asset","Balance Sheet","THB",0,"Accounts Receivable - C","Receivable",0.0,"No","","",0
+"Cash In Hand - C",0,"Cash In Hand","",1,"Company_Test2","Asset","Balance Sheet","THB",0,"Current Assets - C","Cash",0.0,"No","","",0
+"Cash - C",0,"Cash","",0,"Company_Test2","Asset","Balance Sheet","THB",0,"Cash In Hand - C","Cash",0.0,"No","","",0
+"Loans and Advances (Assets) - C",0,"Loans and Advances (Assets)","",1,"Company_Test2","Asset","Balance Sheet","THB",0,"Current Assets - C","",0.0,"No","","",0
+"Employee Advances - C",0,"Employee Advances","",0,"Company_Test2","Asset","Balance Sheet","THB",0,"Loans and Advances (Assets) - C","",0.0,"No","","",0
+"Fixed Assets - C",0,"Fixed Assets","",1,"Company_Test2","Asset","Balance Sheet","THB",0,"Application of Funds (Assets) - C","",0.0,"No","","",0
+"Accumulated Depreciation - C",0,"Accumulated Depreciation","",0,"Company_Test2","Asset","Balance Sheet","THB",0,"Fixed Assets - C","Accumulated Depreciation",0.0,"No","","",0
+"CWIP Account - C",0,"CWIP Account","",0,"Company_Test2","Asset","Balance Sheet","THB",0,"Fixed Assets - C","Capital Work in Progress",0.0,"No","","",0
+"Application of Funds (Assets) - CT",0,"Application of Funds (Assets)","",1,"Company_Test1","Asset","Balance Sheet","THB",0,"","",0.0,"No","","",0
+"Current Assets - CT",0,"Current Assets","",1,"Company_Test1","Asset","Balance Sheet","THB",0,"Application of Funds (Assets) - CT","",0.0,"No","","",0
+"Accounts Receivable - CT",0,"Accounts Receivable","",1,"Company_Test1","Asset","Balance Sheet","THB",0,"Current Assets - CT","",0.0,"No","","",0
+"Debtors - CT",0,"Debtors","",0,"Company_Test1","Asset","Balance Sheet","THB",0,"Accounts Receivable - CT","Receivable",0.0,"No","","",0
+"Bank Accounts - CT",0,"Bank Accounts","",1,"Company_Test1","Asset","Balance Sheet","THB",0,"Current Assets - CT","Bank",0.0,"No","","",0
+"ABC - CT",0,"ABC","",0,"Company_Test1","Asset","Balance Sheet","THB",0,"Bank Accounts - CT","Bank",0.0,"No","","Bank Accounts - CT",0
+"Cash In Hand - CT",0,"Cash In Hand","",1,"Company_Test1","Asset","Balance Sheet","THB",0,"Current Assets - CT","Cash",0.0,"No","","",0
+"Cash - CT",0,"Cash","",0,"Company_Test1","Asset","Balance Sheet","THB",0,"Cash In Hand - CT","Cash",0.0,"No","","",0
+"Loans and Advances (Assets) - CT",0,"Loans and Advances (Assets)","",1,"Company_Test1","Asset","Balance Sheet","THB",0,"Current Assets - CT","",0.0,"No","","",0
+"Employee Advances - CT",0,"Employee Advances","",0,"Company_Test1","Asset","Balance Sheet","THB",0,"Loans and Advances (Assets) - CT","",0.0,"No","","",0
+"Stock Assets - CT",0,"Stock Assets","",1,"Company_Test1","Asset","Balance Sheet","THB",0,"Current Assets - CT","Stock",0.0,"No","","",0
+"Stock In Hand - CT",0,"Stock In Hand","",0,"Company_Test1","Asset","Balance Sheet","THB",0,"Stock Assets - CT","Stock",0.0,"No","","",0
+"Fixed Assets - CT",0,"Fixed Assets","",1,"Company_Test1","Asset","Balance Sheet","THB",0,"Application of Funds (Assets) - CT","",0.0,"No","","",0
+"Accumulated Depreciation - CT",0,"Accumulated Depreciation","",0,"Company_Test1","Asset","Balance Sheet","THB",0,"Fixed Assets - CT","Accumulated Depreciation",0.0,"No","","",0
+"CWIP Account - CT",0,"CWIP Account","",0,"Company_Test1","Asset","Balance Sheet","THB",0,"Fixed Assets - CT","Capital Work in Progress",0.0,"No","","",0
+"Expenses - C",0,"Expenses","",1,"Company_Test2","Expense","Profit and Loss","THB",0,"","",0.0,"No","","",0
+"Direct Expenses - C",0,"Direct Expenses","",1,"Company_Test2","Expense","Profit and Loss","THB",0,"Expenses - C","",0.0,"No","","",0
+"Stock Expenses - C",0,"Stock Expenses","",1,"Company_Test2","Expense","Profit and Loss","THB",0,"Direct Expenses - C","",0.0,"No","","",0
+"Cost of Goods Sold - C",0,"Cost of Goods Sold","",0,"Company_Test2","Expense","Profit and Loss","THB",0,"Stock Expenses - C","Cost of Goods Sold",0.0,"No","","",0
+"Expenses Included In Valuation - C",0,"Expenses Included In Valuation","",0,"Company_Test2","Expense","Profit and Loss","THB",0,"Stock Expenses - C","Expenses Included In Valuation",0.0,"No","","",0
+"Stock Adjustment - C",0,"Stock Adjustment","",0,"Company_Test2","Expense","Profit and Loss","THB",0,"Stock Expenses - C","Stock Adjustment",0.0,"No","","",0
+"Indirect Expenses - C",0,"Indirect Expenses","",1,"Company_Test2","Expense","Profit and Loss","THB",0,"Expenses - C","",0.0,"No","","",0
+"Depreciation - C",0,"Depreciation","",0,"Company_Test2","Expense","Profit and Loss","THB",0,"Indirect Expenses - C","Depreciation",0.0,"No","","",0
+"Exchange Gain/Loss - C",0,"Exchange Gain/Loss","",0,"Company_Test2","Expense","Profit and Loss","THB",0,"Indirect Expenses - C","",0.0,"No","","",0
+"Gain/Loss on Asset Disposal - C",0,"Gain/Loss on Asset Disposal","",0,"Company_Test2","Expense","Profit and Loss","THB",0,"Indirect Expenses - C","",0.0,"No","","",0
+"Round Off - C",0,"Round Off","",0,"Company_Test2","Expense","Profit and Loss","THB",0,"Indirect Expenses - C","Round Off",0.0,"No","","",0
+"Write Off - C",0,"Write Off","",0,"Company_Test2","Expense","Profit and Loss","THB",0,"Indirect Expenses - C","",0.0,"No","","",0
+"Expenses - CT",0,"Expenses","",1,"Company_Test1","Expense","Profit and Loss","THB",0,"","",0.0,"No","","",0
+"Direct Expenses - CT",0,"Direct Expenses","",1,"Company_Test1","Expense","Profit and Loss","THB",0,"Expenses - CT","",0.0,"No","","",0
+"Stock Expenses - CT",0,"Stock Expenses","",1,"Company_Test1","Expense","Profit and Loss","THB",0,"Direct Expenses - CT","",0.0,"No","","",0
+"Cost of Goods Sold - CT",0,"Cost of Goods Sold","",0,"Company_Test1","Expense","Profit and Loss","THB",0,"Stock Expenses - CT","Cost of Goods Sold",0.0,"No","","",0
+"Expenses Included In Asset Valuation - CT",0,"Expenses Included In Asset Valuation","",0,"Company_Test1","Expense","Profit and Loss","THB",0,"Stock Expenses - CT","Expenses Included In Asset Valuation",0.0,"No","","",0
+"Expenses Included In Valuation - CT",0,"Expenses Included In Valuation","",0,"Company_Test1","Expense","Profit and Loss","THB",0,"Stock Expenses - CT","Expenses Included In Valuation",0.0,"No","","",0
+"Stock Adjustment - CT",0,"Stock Adjustment","",0,"Company_Test1","Expense","Profit and Loss","THB",0,"Stock Expenses - CT","Stock Adjustment",0.0,"No","","",0
+"Indirect Expenses - CT",0,"Indirect Expenses","",1,"Company_Test1","Expense","Profit and Loss","THB",0,"Expenses - CT","",0.0,"No","","",0
+"Depreciation - CT",0,"Depreciation","",0,"Company_Test1","Expense","Profit and Loss","THB",0,"Indirect Expenses - CT","Depreciation",0.0,"No","","",0
+"Exchange Gain/Loss - CT",0,"Exchange Gain/Loss","",0,"Company_Test1","Expense","Profit and Loss","THB",0,"Indirect Expenses - CT","",0.0,"No","","",0
+"Gain/Loss on Asset Disposal - CT",0,"Gain/Loss on Asset Disposal","",0,"Company_Test1","Expense","Profit and Loss","THB",0,"Indirect Expenses - CT","",0.0,"No","","",0
+"Round Off - CT",0,"Round Off","",0,"Company_Test1","Expense","Profit and Loss","THB",0,"Indirect Expenses - CT","Round Off",0.0,"No","","",0
+"Write Off - CT",0,"Write Off","",0,"Company_Test1","Expense","Profit and Loss","THB",0,"Indirect Expenses - CT","",0.0,"No","","",0
+"Income - C",0,"Income","",1,"Company_Test2","Income","Profit and Loss","THB",0,"","",0.0,"No","","",0
+"Direct Income - C",0,"Direct Income","",1,"Company_Test2","Income","Profit and Loss","THB",0,"Income - C","",0.0,"No","","",0
+"Sales - C",0,"Sales","",0,"Company_Test2","Income","Profit and Loss","THB",0,"Direct Income - C","",0.0,"No","","",0
+"Income - CT",0,"Income","",1,"Company_Test1","Income","Profit and Loss","THB",0,"","",0.0,"No","","",0
+"Direct Income - CT",0,"Direct Income","",1,"Company_Test1","Income","Profit and Loss","THB",0,"Income - CT","",0.0,"No","","",0
+"Sales - CT",0,"Sales","",0,"Company_Test1","Income","Profit and Loss","THB",0,"Direct Income - CT","",0.0,"No","","",0
+"Source of Funds (Liabilities) - C",0,"Source of Funds (Liabilities)","",1,"Company_Test2","Liability","Balance Sheet","THB",0,"","",0.0,"No","","",0
+"Current Liabilities - C",0,"Current Liabilities","",1,"Company_Test2","Liability","Balance Sheet","THB",0,"Source of Funds (Liabilities) - C","",0.0,"No","","",0
+"Accounts Payable - C",0,"Accounts Payable","",1,"Company_Test2","Liability","Balance Sheet","THB",0,"Current Liabilities - C","",0.0,"No","","",0
+"Creditors - C",0,"Creditors","",0,"Company_Test2","Liability","Balance Sheet","THB",0,"Accounts Payable - C","Payable",0.0,"No","","",0
+"Payroll Payable - C",0,"Payroll Payable","",0,"Company_Test2","Liability","Balance Sheet","THB",0,"Accounts Payable - C","",0.0,"No","","",0
+"Duties and Taxes - C",0,"Duties and Taxes","",1,"Company_Test2","Liability","Balance Sheet","THB",0,"Current Liabilities - C","Tax",0.0,"No","","",0
+"VAT - C",0,"VAT","",0,"Company_Test2","Liability","Balance Sheet","",0,"Duties and Taxes - C","Tax",7.0,"No","","Duties and Taxes - C",0
+"Stock Liabilities - C",0,"Stock Liabilities","",1,"Company_Test2","Liability","Balance Sheet","THB",0,"Current Liabilities - C","",0.0,"No","","",0
+"Asset Received But Not Billed - C",0,"Asset Received But Not Billed","",0,"Company_Test2","Liability","Balance Sheet","THB",0,"Stock Liabilities - C","Asset Received But Not Billed",0.0,"No","","",0
+"Stock Received But Not Billed - C",0,"Stock Received But Not Billed","",0,"Company_Test2","Liability","Balance Sheet","THB",0,"Stock Liabilities - C","Stock Received But Not Billed",0.0,"No","","",0
+"Source of Funds (Liabilities) - CT",0,"Source of Funds (Liabilities)","",1,"Company_Test1","Liability","Balance Sheet","THB",0,"","",0.0,"No","","",0
+"Current Liabilities - CT",0,"Current Liabilities","",1,"Company_Test1","Liability","Balance Sheet","THB",0,"Source of Funds (Liabilities) - CT","",0.0,"No","","",0
+"Accounts Payable - CT",0,"Accounts Payable","",1,"Company_Test1","Liability","Balance Sheet","THB",0,"Current Liabilities - CT","",0.0,"No","","",0
+"Creditors - CT",0,"Creditors","",0,"Company_Test1","Liability","Balance Sheet","THB",0,"Accounts Payable - CT","Payable",0.0,"No","","",0
+"Payroll Payable - CT",0,"Payroll Payable","",0,"Company_Test1","Liability","Balance Sheet","THB",0,"Accounts Payable - CT","",0.0,"No","","",0
+"Duties and Taxes - CT",0,"Duties and Taxes","",1,"Company_Test1","Liability","Balance Sheet","THB",0,"Current Liabilities - CT","Tax",0.0,"No","","",0
+"VAT - CT",0,"VAT","",0,"Company_Test1","Liability","Balance Sheet","",0,"Duties and Taxes - CT","Tax",7.0,"No","","Duties and Taxes - CT",0
+"Stock Liabilities - CT",0,"Stock Liabilities","",1,"Company_Test1","Liability","Balance Sheet","THB",0,"Current Liabilities - CT","",0.0,"No","","",0
+"Asset Received But Not Billed - CT",0,"Asset Received But Not Billed","",0,"Company_Test1","Liability","Balance Sheet","THB",0,"Stock Liabilities - CT","Asset Received But Not Billed",0.0,"No","","",0
+"Stock Received But Not Billed - CT",0,"Stock Received But Not Billed","",0,"Company_Test1","Liability","Balance Sheet","THB",0,"Stock Liabilities - CT","Stock Received But Not Billed",0.0,"No","","",0

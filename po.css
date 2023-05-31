@@ -1,0 +1,139 @@
+.m100 {
+  background: url("./images/pexels-life-of-pix-2391.jpg") no-repeat;
+  background-size: cover;
+  height: 120vh;
+  position: relative;
+}
+.button {
+  width: 11rem;
+  height: 3rem;
+  background-color: #3fbfbf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  color: #2c5234;
+  font-size: 1.5rem;
+}
+/* end--- header---content */
+.m100 .m200 {
+  width: 46rem;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+}
+.m100 .m200 h1 {
+  font-size: 5.5rem;
+  color: #03045e;
+}
+.m100 .m200 h2 {
+  font-size: 2rem;
+  color: #03045e;
+  margin: 3.5rem 0 0 0;
+}
+.m100 .m200 p {
+  color: #03045e;
+  margin: -1rem 0 2rem 0;
+  font-size: 1rem;
+}
+
+/* ส่วนที่2 */
+.m1000 {
+  background: url("./images/1,586 (10).png") no-repeat;
+  background-size: cover;
+  height: 60vh;
+  position: relative;
+}
+
+/* end--- header---content */
+.m1000 .m2000 {
+  width: 30rem;
+  position: absolute;
+  top: -3%;
+  left: 55%;
+}
+.m1000 .m2000 h1 {
+  font-size: 3.5rem;
+  color: #03045e;
+}
+.m1000 .m2000 h2 {
+  font-size: 1rem;
+  color: #03045e;
+  margin: 3.5rem 0 0 0;
+}
+.m1000 .m2000 p {
+  color: #03045e;
+  margin: -1rem 0 2rem 0;
+  font-size: 1rem;
+}
+/* ส่วนที่3 */
+.a1000 {
+  background: url("./images/1,586 (12).png") no-repeat;
+  background-size: cover;
+  height: 80vh;
+  position: relative;
+}
+
+/* end--- header---content */
+.a1000 .a2000 {
+  width: 40rem;
+  position: absolute;
+  top: -1%;
+  left: 6%;
+}
+.a1000 .a2000 h1 {
+  font-size: 3.5rem;
+  color: #03045e;
+}
+.a1000 .a2000 h2 {
+  font-size: 1rem;
+  color: #03045e;
+  margin: 3.5rem 0 0 0;
+}
+.a1000 .a2000 p {
+  color: #03045e;
+  margin: -1rem 0 2rem 0;
+  font-size: 1rem;
+}
+/* ส่วนที่4 */
+.b1000 {
+  background: url("./images/1,586 (3).png") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+/* end--- header---content */
+.b1000 .b2000 {
+  width: 70rem;
+  position: absolute;
+  top: 30%;
+  left: 6%;
+}
+.b1000 .b2000 h1 {
+  font-size: 3.5rem;
+  color: #03045e;
+}
+.b1000 .b2000 h2 {
+  font-size: 1.8rem;
+  color: #03045e;
+  margin: 1rem 0 0 0;
+}
+.b1000 .b2000 p {
+  color: #03045e;
+  margin: 1rem 0 2rem 0;
+  font-size: 1rem;
+}
+/* ส่วนที่4 */
+.d1000 {
+  background: url("./images/Untitled design (9).png") no-repeat;
+  background-size: cover;
+  height: 30vh;
+  position: relative;
+}
+.d1000 .d2000 {
+  width: 70rem;
+  position: absolute;
+  top: 30%;
+  left: 6%;
+}

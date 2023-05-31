@@ -1,0 +1,245 @@
+/* ---------------------
+#about_page
+------------------ */
+
+/* --------------------- 
+# Hero Section
+ ----------------------------- */
+
+ #hero-about {
+    width: 100%;
+    height: 110vh;
+    position: relative;
+    background: #f5f8fd url("../img/") center top no-repeat;
+    background: linear-gradient(92.27deg, rgba(222, 217, 217, 0.9) 48.14%, rgba(229, 220, 220, 0) 138.55%), url('../img/about_header.png');
+    background-size: cover;
+    padding-top: 110px;
+    padding: 110px 20px 0 40px;
+  }
+  
+  @media (max-width: 991px) {
+    #hero-about {
+      height: auto;
+      padding: 100px 20px 60px 20px;
+    }
+  
+    #hero-about .container {
+      height: auto !important;
+    }
+  
+    #hero-about .intro-img {
+      width: 80%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    #hero-about .intro-info {
+      padding-top: 100px;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    #hero-about .intro-info {
+      text-align: center;
+      padding-top: 40px;
+    }
+  }
+  
+  #hero-about .intro-info h2 {
+    color: #182FAD;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 70px;
+    font-weight: 700;
+  }
+  
+  #hero-about .intro-info .head{
+    color: #000000;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 40px;
+  }
+  
+  #hero-about #hero-content {
+    margin:0 2rem;
+  
+  }
+  
+  #hero-about #hero-mess {
+    color: #000000;
+    font-size: 19px;
+   
+  }
+  
+  @media (max-width: 991px) {
+    #hero-about .intro-info h2 {
+      font-size: 34px;
+      margin-bottom: 30px;
+    }
+  }
+  
+  #hero-about .intro-info .btn-get-started,
+  #hero-about .intro-info .btn-services {
+    margin-top: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 20px 32px;
+    border-radius: 9px;
+    transition: 0.5s;
+    color: #fff;
+    background: linear-gradient(274.97deg, #182FAD 25%, rgba(24, 47, 173, 0) 152.15%);
+    filter: drop-shadow(0px 5px 25px rgba(0, 0, 0, 0.25));
+  }
+  
+  #hero-about .intro-info .btn-get-started:hover,
+  #hero-about .intro-info .btn-services:hover {
+    background: #182FAD;
+  }
+
+  /* ---------------------
+  #About Section
+  ------------------------ */
+
+ @media (max-width: 767px) {
+    #about #about-item1{
+        display: flex;
+        flex-direction: column-reverse;
+     }
+     #about .environment{
+        grid-template-columns: 1fr !important;
+        column-gap: 1rem;
+    }
+   
+
+  }
+#about .environment{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 2rem;
+}
+#about .environment .about-content{
+    width: 100%;
+}
+
+ #about .about-content p{
+    margin: 1rem !important;
+  }
+
+
+ #about .about-img2 img:hover {
+    width: 100%;
+    transform: scale(1.03);
+  }
+
+  #about .about-img2 img {  
+    width: 100%;
+    border: 8px solid #fff;
+    transition: 0.5s;
+  }
+
+  #about .grid-img{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+  }
+
+  #about .grid-img .grid-item2 img{
+    width: 100%;
+    padding: 0;
+    margin-top: 10px;
+    height: fit-content;
+  }
+
+  #about .grid-img .grid-item1 img{
+    width: 100%;
+    height: fit-content;
+  }
+
+  /* ---------------------
+   #about us
+  ------------------------ */
+
+  #about_us {
+    padding: 0 40px;
+  }
+
+  #about_us .detail p {
+    padding: 0 10px 10px 0;
+  }
+
+  #about_us .about_us h2 {
+    color: #182FAD;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+  }
+
+  #about_us .grid-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    }
+
+  @media screen and (max-width: 700px) {
+    #about_us {
+      padding: 0 20px;
+    }
+
+    #about_us .grid-content {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 550px)  {
+    #about_us {
+      padding: 0 20px;
+    }
+
+    #about_us .grid-content {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  #about_us .grid_content .grid-itemcon {
+    align-items: center;
+    margin: 1rem;
+    padding: 2rem;
+  }
+
+  #about_us .grid-content .grid-itemcon .about-img img{
+    width: 100%;
+    padding: 2rem;
+  }
+
+  #about_us .grid-content .grid-itemcon .about-profile h4{
+    color: #182FAD;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 1rem;
+  }
+
+  #about_us .grid-content .grid-itemcon .about-profile p{
+    font-family: "Montserrat", sans-serif;
+    padding: 2rem;
+  }
+
+  @media screen and (max-width: 769px) {
+    #footer .content-footer {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    #footer .content-footer .right-footer {
+      padding: 10px;
+    }
+
+    #footer .content-footer .left-footer {
+      padding: 10px;
+    }
+  }
+
+
+
