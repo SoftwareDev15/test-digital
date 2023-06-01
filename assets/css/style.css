@@ -192,6 +192,7 @@ h6 {
   padding: 1rem 2.5rem;
   margin-bottom: 0.5rem;
   overflow: hidden;
+  font-size: 14px;
 }
 #services .container-card .card .read-more {
   padding: 1rem 1.5rem;
@@ -232,6 +233,53 @@ h6 {
   background-image: url("../img/icon/accurate.png");
   background-repeat: no-repeat;
   background-position: 60% 50%;
+  background-size: 60px 60px;
+}
+
+
+#services .container-card .card .card-icon .background-scada {
+  width: 100px;
+  height: 100px;
+  background-color: #363d65;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  position: relative;
+  background-image: url("../img/icon/scada-white.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 60px 60px;
+}
+
+#services .container-card .card:hover .card-icon .background-scada {
+  background-color: rgb(255, 255, 255);
+  background-image: url("../img/icon/scada-black.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 60px 60px;
+}
+
+#services .container-card .card .card-icon .background-erp {
+  width: 100px;
+  height: 100px;
+  background-color: #363d65;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  position: relative;
+  background-image: url("../img/icon/erp-white.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 60px 60px;
+}
+
+#services .container-card .card:hover .card-icon .background-erp {
+  background-color: rgb(255, 255, 255);
+  background-image: url("../img/icon/erp-black.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
   background-size: 60px 60px;
 }
 /* #services .container-card .card .card-icon .background img{
