@@ -25,17 +25,16 @@ class MyHeader extends HTMLElement{
             <li><a class="nav-link scrollto" href="blogs.html">Blogs</a></li>
             <li><a class="nav-link scrollto" href="join-us.html">Join Us</a></li>
             <li><a class="nav-link scrollto " href="portfolio.html">Portfolio</a></li>
-            <li><a class="nav-link scrollto" href="contact-us">Contact Us</a></li>
+            <li><a class="nav-link scrollto" href="contact-us.html">Contact Us</a></li>
             <li><a class="nav-link scrollto" href="helps.html">Helps</a></li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
   
         <div class="social-links">
-          <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="https://twitter.com/digitalpage2" target="tab_" class="twitter"><i class="bi bi-twitter"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100083466331948" target="tab_" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/erpeazy.digitalaccess" target="tab_" class="instagram"><i class="bi bi-instagram"></i></a>
         </div>
   
       </div>
