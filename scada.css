@@ -44,27 +44,27 @@
 .o3000 {
   background: url("./images/1,586 (14).png") no-repeat;
   width: 45 rem;
-  height: 60rem;
+  height: 43rem;
   position: relative;
   overflow: hidden;
 }
 .o3000 .o4000 {
-  transform: rotate(30deg);
+  transform: rotate(0deg);
   background-color: #b3dff1;
-  width: 50rem;
+  width: 45rem;
   height: 5rem;
   position: absolute;
   left: -10rem;
-  top: 10rem;
+  top: 30rem;
 }
 .o3000 .o400 {
-  transform: rotate(30deg);
+  transform: rotate(90deg);
   background-color: #b3dff1;
   width: 50rem;
   height: 10rem;
   position: absolute;
-  left: -10rem;
-  top: 17rem;
+  left: -17rem;
+  top: 10rem;
 }
 .o3000 .o5000 {
   position: absolute;
@@ -74,14 +74,24 @@
   left: 3rem;
 }
 .o3000 .o5000 img {
-  width: 80%;
+  width: 60%;
 }
 .o3000 .o6000 {
-  margin: 3rem 0 0 40rem;
-  width: 35rem;
+  transform: rotate(0deg);
+  background: url("./images/Untitled design (2).png") no-repeat;
+  width: 43rem;
+  height: 50rem;
+  position: absolute;
+  left: 33rem;
+  top: 1rem;
 }
-.o3000 .o6000 h1 {
-  font-size: 2.5rem;
+
+.o3000 .o600 {
+  margin: 2rem 0 0 3rem;
+  width: 37rem;
+}
+.o3000 .o6000 o600 h1 {
+  font-size: 3rem;
   color: #03045e;
 }
 .o3000 .o6000 h2 {
@@ -94,39 +104,79 @@
   margin: 1rem 0 2rem 0;
   font-size: 1rem;
 }
+
 /* จบส่วนที่2 */
 /* เริ่มต้นส่วนที่3 */
 .w3000 {
   background: url("./images/1,586 (14).png") no-repeat;
   width: 100%;
-  height: 90rem;
+  height: 67rem;
   position: relative;
   overflow: hidden;
 }
-/* .w3000 .w4000 {
-  transform: rotate(40deg);
+.w3000 .w4000 {
+  transform: rotate(0deg);
   background-color: #b3dff1;
-  width: 45rem;
-  height: 40rem;
+  width: 6rem;
+  height: 50rem;
   position: absolute;
-  left: 45rem;
+  left: 50rem;
   top: -5rem;
-} */
+}
+.w3000 .w400 {
+  transform: rotate(0deg);
+  background-color: #b3dff1;
+  width: 7rem;
+  height: 55rem;
+  position: absolute;
+  left: 57rem;
+  top: -5rem;
+}
+.w3000 .w40 {
+  transform: rotate(0deg);
+  background-color: #b3dff1;
+  width: 8rem;
+  height: 60rem;
+  position: absolute;
+  left: 65rem;
+  top: -5rem;
+}
+
 .w3000 .w5000 {
   position: absolute;
-  top: 20%;
+  top: 5%;
   width: 40rem;
   height: 40rem;
-  left: 46rem;
+  left: 45rem;
 }
 .w3000 .w5000 img {
   width: 80%;
 }
+.w3000 .w500 {
+  position: absolute;
+  top: 39%;
+  width: 40rem;
+  height: 40rem;
+  left: 48rem;
+}
+.w3000 .w500 img {
+  width: 60%;
+}
 .w3000 .w6000 {
-  margin: 3rem 0 0 4rem;
+  transform: rotate(0deg);
+  background: url("./images/Untitled design (2).png") no-repeat;
+  width: 45rem;
+  height: 63rem;
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+}
+
+.w3000 .w600 {
+  margin: 1rem 0 0 4rem;
   width: 37rem;
 }
-.w3000 .w6000 h1 {
+.w3000 .w6000 w600 h1 {
   font-size: 3.5rem;
   color: #03045e;
 }
@@ -140,7 +190,7 @@
   margin: 1rem 0 2rem 0;
   font-size: 1rem;
 }
-.w3000 .w6000 li {
+.w3000 .w6000 .w600 li {
   margin: 1rem 0 2rem 0;
   font-size: 1rem;
 }
@@ -149,45 +199,69 @@
 .u3000 {
   background: url("./images/1,586 (14).png") no-repeat;
   width: 45 rem;
-  height: 30rem;
+  height: 55rem;
   position: relative;
   overflow: hidden;
 }
 .u3000 .u4000 {
-  transform: rotate(40deg);
+  transform: rotate(0deg);
   background-color: #b3dff1;
   width: 45rem;
-  height: 40rem;
+  height: 5rem;
   position: absolute;
   left: -10rem;
-  top: -5rem;
+  top: 30rem;
+}
+.u3000 .u400 {
+  transform: rotate(90deg);
+  background-color: #b3dff1;
+  width: 50rem;
+  height: 10rem;
+  position: absolute;
+  left: -17rem;
+  top: 10rem;
 }
 .u3000 .u5000 {
   position: absolute;
   top: 25%;
   width: 45rem;
-  height: 40rem;
+  height: 45rem;
   left: 3rem;
 }
 .u3000 .u5000 img {
-  width: 65%;
+  width: 60%;
 }
 .u3000 .u6000 {
-  margin: 3rem 0 0 45rem;
-  width: 30rem;
+  transform: rotate(0deg);
+  background: url("./images/Untitled design (2).png") no-repeat;
+  width: 43rem;
+  height: 50rem;
+  position: absolute;
+  left: 33rem;
+  top: 1rem;
 }
-.u3000 .u6000 h1 {
-  font-size: 3.5rem;
+
+.u3000 .u600 {
+  margin: 2rem 0 0 3rem;
+  width: 37rem;
+}
+.u3000 .u6000 u600 h1 {
+  font-size: 3rem;
   color: #03045e;
 }
 .u3000 .u6000 h2 {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #03045e;
-  margin: 3.5rem 0 0 0;
+  margin: 1rem 0 0 0;
 }
 .u3000 .u6000 p {
   color: #03045e;
-  margin: -1rem 0 2rem 0;
+  margin: 1rem 0 2rem 0;
+  font-size: 1rem;
+}
+.u3000 .u6000 li {
+  color: #03045e;
+  margin: 1rem 0 0 0;
   font-size: 1rem;
 }
 /* จบส่วนที่4 */
@@ -195,14 +269,21 @@
 .b1000 {
   background: url("./images/1,586 (14).png") no-repeat;
   background-size: cover;
-  height: 120vh;
+  height: 400vh;
   position: relative;
 }
 .b1000 .b2000 {
-  width: 70rem;
+  background-color: #ffffff;
+  width: 60rem;
+  height: 160rem;
   position: absolute;
-  top: 10%;
-  left: 6%;
+  margin: 1rem 6rem 0 8.7rem;
+}
+.b1000 .b200 {
+  width: 50rem;
+  position: absolute;
+  top: 2%;
+  left: 5rem;
 }
 .b1000 .b2000 h1 {
   font-size: 3.5rem;
@@ -217,6 +298,12 @@
   color: #03045e;
   margin: 1rem 0 2rem 0;
   font-size: 1rem;
+}
+.b1000 .b2000 img {
+  margin: 1rem 0 2rem 0;
+  width: 30rem;
+  height: 20rem;
+  margin: 2rem 0 0 7.5rem;
 }
 /* จบส่วนที่5 */
 /* ส่วนที่6 */
