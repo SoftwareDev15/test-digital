@@ -305,4 +305,39 @@
 
 })()
 
+ /**
+   * product Slider
+   */
+
+ const swiper = new Swiper('.namtarn', {
+  // Optional parameters
+  loop: true,
+  slidesPerView: 3,
+  centerSlide: 'true',
+  grabCursor: 'true',
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    nextEl: '.swiper-button-next',
+   
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    800: {
+      slidesPerView: 2,
+    },
+    1020: {
+      slidesPerView: 3,
+    },
+  }
+
+
+});
+
+
+
+
 
