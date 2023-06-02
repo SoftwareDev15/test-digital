@@ -319,7 +319,7 @@
   // Navigation arrows
   navigation: {
     nextEl: '.swiper-button-next',
-    nextEl: '.swiper-button-next',
+    
    
   },
   breakpoints: {
