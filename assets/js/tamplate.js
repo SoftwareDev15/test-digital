@@ -23,7 +23,7 @@ class MyHeader extends HTMLElement{
               </ul>
             </li>
             <li><a class="nav-link scrollto" href="blogs.html">Blogs</a></li>
-            <li><a class="nav-link scrollto" href="join-us.html">Join Us</a></li>
+            <li><a class="nav-link scrollto" href="join_us.html">Join Us</a></li>
             <li><a class="nav-link scrollto " href="portfolio.html">Portfolio</a></li>
             <li><a class="nav-link scrollto" href="contact-us.html">Contact Us</a></li>
             <li><a class="nav-link scrollto" href="helps.html">Helps</a></li>
