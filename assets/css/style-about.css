@@ -11,7 +11,7 @@
     height: 110vh;
     position: relative;
     background: #f5f8fd url("../img/") center top no-repeat;
-    background: linear-gradient(92.27deg, rgba(222, 217, 217, 0.9) 48.14%, rgba(229, 220, 220, 0) 138.55%), url('../img/about_header.png');
+    background: linear-gradient(92.27deg, rgba(222, 217, 217, 0.9) 48.14%, rgba(229, 220, 220, 0) 138.55%), url('../img/about-page/about_header.png');
     background-size: cover;
     padding-top: 110px;
     padding: 110px 20px 0 40px;
