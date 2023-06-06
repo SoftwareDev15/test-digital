@@ -47,6 +47,7 @@
   height: 43rem;
   position: relative;
   overflow: hidden;
+  background-size: cover;
 }
 .o3000 .o4000 {
   transform: rotate(0deg);
@@ -113,6 +114,7 @@
   height: 67rem;
   position: relative;
   overflow: hidden;
+  background-size: cover;
 }
 .w3000 .w4000 {
   transform: rotate(0deg);
@@ -193,6 +195,7 @@
 .w3000 .w6000 .w600 li {
   margin: 1rem 0 2rem 0;
   font-size: 1rem;
+  color: #03045e;
 }
 /* จบส่วนที่3 */
 /* เริ่มต้นส่วนที่4 */
@@ -202,6 +205,7 @@
   height: 55rem;
   position: relative;
   overflow: hidden;
+  background-size: cover;
 }
 .u3000 .u4000 {
   transform: rotate(0deg);
@@ -269,13 +273,13 @@
 .b1000 {
   background: url("./images/1,586 (14).png") no-repeat;
   background-size: cover;
-  height: 400vh;
+  height: 180rem;
   position: relative;
 }
 .b1000 .b2000 {
   background-color: #ffffff;
   width: 60rem;
-  height: 160rem;
+  height: 180rem;
   position: absolute;
   margin: 1rem 6rem 0 8.7rem;
 }
@@ -299,6 +303,11 @@
   margin: 1rem 0 2rem 0;
   font-size: 1rem;
 }
+.b1000 .b2000 li {
+  color: #03045e;
+
+  font-size: 1rem;
+}
 .b1000 .b2000 img {
   margin: 1rem 0 2rem 0;
   width: 30rem;
@@ -309,12 +318,13 @@
 /* ส่วนที่6 */
 .gog {
   background: url("./images/1,586 (14).png") no-repeat;
-  height: 40rem;
+  height: 30rem;
   display: flex;
   justify-content: space-between;
+  background-size: cover;
 }
 .gog .gog100 {
-  margin: 1rem 3rem 0 3rem;
+  margin: 3rem 3rem 0 3rem;
   height: 40rem;
   display: flex;
   justify-content: space-between;

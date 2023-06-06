@@ -1,0 +1,502 @@
+/* ส่วนควบคุม */
+.control {
+  /* background-color: #3fbfbf; */
+  width: 100%;
+  height: 140rem;
+}
+/* จบส่วนควบคุม */
+/* ............................................................................................. */
+/* ส่วนที่1 */
+.control .a1000 {
+  background-color: #ffffff;
+  width: 100%;
+  height: 30rem;
+  margin: 0 0 0 0;
+  position: relative;
+  display: flex;
+}
+.control .a1000 .a100 {
+  background: url("./images/Rectangle 42.png") no-repeat;
+  width: 70%;
+  height: 30rem;
+  margin: 0 0 0 0;
+  display: flex;
+  align-items: center;
+}
+.control .a1000 .a100 .a10 {
+  /* background-color: #300000; */
+  width: 50%;
+  height: 6rem;
+  margin: 6rem 0 0 14rem;
+}
+.control .a1000 .a100 .a10 h1 {
+  color: #ffffff;
+  margin: 0 0 0 0;
+  font-size: 50px;
+}
+/* .control .a1000 .a100 .a10 p {
+  color: #900000;
+  margin: 0 0 0 0;
+  font-size: 1rem;
+}
+.control .a1000 .a100 .a10 li {
+  color: #900000;
+  margin: 0 0 0 0;
+  font-size: 1rem;
+}
+.control .a1000 .a100 .a10 ul {
+  color: #900000;
+  margin: 0 0 0 0;
+  font-size: 1rem;
+} */
+.control .a1000 .a200 {
+  /* background: url("./images/Untitled design (9).png") no-repeat; */
+  width: 30%;
+  height: 30rem;
+  margin: 0 0 0 0;
+  display: flex;
+  align-items: center;
+}
+.control .a1000 .a200 .a20 {
+  /* background-color: #300000; */
+  width: 60%;
+  height: 15rem;
+  margin: 3rem 0 0 6rem;
+}
+.control .a1000 .a200 .a20 h1 {
+  color: #000000;
+  margin: 0 0 1rem 0;
+  font-size: 28px;
+}
+/* /* .control .a1000 .a200 .a20 p {
+  color: #900000;
+  margin: 0 0 0 0;
+  font-size: 1rem;
+} */
+.control .a1000 .a200 .a20 li {
+  color: #000000;
+  margin: 0 0 0.7rem 0;
+  font-size: 1rem;
+}
+/* .control .a1000 .a200 .a20 ul {
+  color: #900000;
+  margin: 0 0 0 0;
+  font-size: 0.5rem;
+} */
+*/
+/* จบส่วนที่1 */
+/* ............................................................................................. */
+/* ส่วนที่2 */
+.control .b1000 {
+  /* background-color: red; */
+  width: 100%;
+  height: 30rem;
+  margin: 0 0 0 0;
+  position: relative;
+}
+.control .b1000 .b100 {
+  background-color: #f8f8f8;
+  width: 100%;
+  height: 17rem;
+  margin: 0 0 0 0;
+  display: flex;
+}
+/* ย่อย1 */
+.control .b1000 .b100 .b10 {
+  background: url("./images/Rectangle 42.png") no-repeat;
+  width: 95%;
+  height: 15rem;
+  margin: 2rem 0 0 2rem;
+  border-radius: 1rem;
+}
+.control .b1000 .b100 .b10 h1 {
+  color: #ffffff;
+  margin: 2rem 0 0 1rem;
+  font-size: 2rem;
+}
+.control .b1000 .b100 .b10 p {
+  color: #ffffff;
+  margin: 1rem 0 0 1rem;
+  font-size: 1rem;
+}
+.control .b1000 .b100 .b10 li {
+  color: #ffffff;
+  margin: 0 0 0 1rem;
+  font-size: 1rem;
+}
+.control .b1000 .b100 .b10 ul {
+  color: #ffffff;
+  margin: 0 0 0 1rem;
+  font-size: 1rem;
+}
+
+/* จบส่วนที่2 */
+/* ............................................................................................. */
+/* ส่วนที่3 */
+.control .c1000 {
+  /* background-color: red; */
+  width: 100%;
+  height: 17rem;
+  margin: 0 0 0 0;
+  position: relative;
+}
+.control .c1000 .c100 {
+  background-color: #f8f8f8;
+  width: 100%;
+  height: 17rem;
+  margin: 0 0 0 0;
+  display: flex;
+}
+/* ย่อย1 */
+.control .c1000 .c100 .c10 {
+  background: url("./images/Rectangle 42.png") no-repeat;
+  width: 95%;
+  height: 15rem;
+  margin: 2rem 0 0 2rem;
+  border-radius: 1rem;
+}
+.control .c1000 .c100 .c10 h1 {
+  color: #ffffff;
+  margin: 2rem 0 0 1rem;
+  font-size: 2rem;
+}
+.control .c1000 .c100 .c10 p {
+  color: #ffffff;
+  margin: 1rem 0 0 1rem;
+  font-size: 1rem;
+}
+.control .c1000 .c100 .c10 li {
+  color: #ffffff;
+  margin: 0 0 0 1rem;
+  font-size: 1rem;
+}
+.control .c1000 .c100 .c10 ul {
+  color: #ffffff;
+  margin: 0 0 0 1rem;
+  font-size: 1rem;
+}
+
+/* จบส่วนที่3 */
+/* .............................................................................................; */
+/* ส่วนที่4 */
+.control .d1000 {
+  /* background-color: red; */
+  width: 100%;
+  height: 17rem;
+  margin: 0 0 0 0;
+  position: relative;
+}
+.control .d1000 .d100 {
+  background-color: #f8f8f8;
+  width: 100%;
+  height: 17rem;
+  margin: 0 0 0 0;
+  display: flex;
+}
+/* ย่อย1 */
+.control .d1000 .d100 .d10 {
+  background: url("./images/Rectangle 42.png") no-repeat;
+  width: 95%;
+  height: 15rem;
+  margin: 2rem 0 0 2rem;
+  border-radius: 1rem;
+}
+.control .d1000 .d100 .d10 h1 {
+  color: #ffffff;
+  margin: 2rem 0 0 1rem;
+  font-size: 2rem;
+}
+.control .d1000 .d100 .d10 p {
+  color: #ffffff;
+  margin: 1rem 0 0 1rem;
+  font-size: 1rem;
+}
+.control .d1000 .d100 .d10 li {
+  color: #ffffff;
+  margin: 0 0 0 1rem;
+  font-size: 1rem;
+}
+.control .d1000 .d100 .d10 ul {
+  color: #ffffff;
+  margin: 0 0 0 1rem;
+  font-size: 1rem;
+}
+
+/* จบส่วนที่4 */
+/* .............................................................................................; */
+/* ส่วนที่4 */
+.control .e1000 {
+  /* background-color: red; */
+  width: 100%;
+  height: 17rem;
+  margin: 0 0 0 0;
+  position: relative;
+}
+.control .e1000 .e100 {
+  background-color: #f8f8f8;
+  width: 100%;
+  height: 17rem;
+  margin: 0 0 0 0;
+  display: flex;
+}
+/* ย่อย1 */
+.control .e1000 .e100 .e10 {
+  background: url("./images/Rectangle 42.png") no-repeat;
+  width: 95%;
+  height: 15rem;
+  margin: 2rem 0 0 2rem;
+  border-radius: 1rem;
+}
+.control .e1000 .e100 .e10 h1 {
+  color: #ffffff;
+  margin: 2rem 0 0 1rem;
+  font-size: 2rem;
+}
+.control .e1000 .e100 .e10 p {
+  color: #ffffff;
+  margin: 1rem 0 0 1rem;
+  font-size: 1rem;
+}
+.control .e1000 .e100 .e10 li {
+  color: #ffffff;
+  margin: 0 0 0 1rem;
+  font-size: 1rem;
+}
+.control .e1000 .e100 .e10 ul {
+  color: #ffffff;
+  margin: 0 0 0 1rem;
+  font-size: 1rem;
+}
+
+/* จบส่วนที่4 */
+/* .............................................................................................; */
+/* ส่วนที่4 */
+.control .f1000 {
+  /* background-color: red; */
+  width: 100%;
+  height: 17rem;
+  margin: 0 0 0 0;
+  position: relative;
+}
+.control .f1000 .f100 {
+  background-color: #f8f8f8;
+  width: 100%;
+  height: 17rem;
+  margin: 0 0 0 0;
+  display: flex;
+}
+/* ย่อย1 */
+.control .f1000 .f100 .f10 {
+  background: url("./images/Rectangle 42.png") no-repeat;
+  width: 95%;
+  height: 15rem;
+  margin: 2rem 0 0 2rem;
+  border-radius: 1rem;
+}
+.control .f1000 .f100 .f10 h1 {
+  color: #ffffff;
+  margin: 2rem 0 0 1rem;
+  font-size: 2rem;
+}
+.control .f1000 .f100 .f10 p {
+  color: #ffffff;
+  margin: 1rem 0 0 1rem;
+  font-size: 1rem;
+}
+.control .f1000 .f100 .f10 li {
+  color: #ffffff;
+  margin: 0 0 0 1rem;
+  font-size: 1rem;
+}
+.control .f1000 .f100 .f10 ul {
+  color: #ffffff;
+  margin: 0 0 0 1rem;
+  font-size: 1rem;
+}
+
+/* จบส่วนที่4 */
+/* .............................................................................................; */
+/* ส่วนที่4 */
+.control .d1000 {
+  /* background-color: red; */
+  width: 100%;
+  height: 17rem;
+  margin: 0 0 0 0;
+  position: relative;
+}
+.control .d1000 .d100 {
+  background-color: #f8f8f8;
+  width: 100%;
+  height: 17rem;
+  margin: 0 0 0 0;
+  display: flex;
+}
+/* ย่อย1 */
+.control .d1000 .d100 .d10 {
+  background: url("./images/Rectangle 42.png") no-repeat;
+  width: 95%;
+  height: 15rem;
+  margin: 2rem 0 0 2rem;
+  border-radius: 1rem;
+}
+.control .d1000 .d100 .d10 h1 {
+  color: #ffffff;
+  margin: 2rem 0 0 1rem;
+  font-size: 2rem;
+}
+.control .d1000 .d100 .d10 p {
+  color: #ffffff;
+  margin: 1rem 0 0 1rem;
+  font-size: 1rem;
+}
+.control .d1000 .d100 .d10 li {
+  color: #ffffff;
+  margin: 0 0 0 1rem;
+  font-size: 1rem;
+}
+.control .d1000 .d100 .d10 ul {
+  color: #ffffff;
+  margin: 0 0 0 1rem;
+  font-size: 1rem;
+}
+
+/* จบส่วนที่4 */
+/* .............................................................................................; */
+/* ส่วนที่5 */
+.control .e1000 {
+  /* background-color: red; */
+  width: 100%;
+  height: 17rem;
+  margin: 0 0 0 0;
+  position: relative;
+}
+.control .e1000 .e100 {
+  background-color: #f8f8f8;
+  width: 100%;
+  height: 17rem;
+  margin: 0 0 0 0;
+  display: flex;
+}
+/* ย่อย1 */
+.control .e1000 .e100 .e10 {
+  background: url("./images/Rectangle 42.png") no-repeat;
+  width: 95%;
+  height: 15rem;
+  margin: 2rem 0 0 2rem;
+  border-radius: 1rem;
+}
+.control .e1000 .e100 .e10 h1 {
+  color: #ffffff;
+  margin: 2rem 0 0 1rem;
+  font-size: 2rem;
+}
+.control .e1000 .e100 .e10 p {
+  color: #ffffff;
+  margin: 1rem 0 0 1rem;
+  font-size: 1rem;
+}
+.control .e1000 .e100 .e10 li {
+  color: #ffffff;
+  margin: 0 0 0 1rem;
+  font-size: 1rem;
+}
+.control .e1000 .e100 .e10 ul {
+  color: #ffffff;
+  margin: 0 0 0 1rem;
+  font-size: 1rem;
+}
+
+/* จบส่วนที่5*/
+/* .............................................................................................; */
+/* ส่วนที่6 */
+.control .f1000 {
+  /* background-color: red; */
+  width: 100%;
+  height: 17rem;
+  margin: 0 0 0 0;
+  position: relative;
+}
+.control .f1000 .f100 {
+  background-color: #f8f8f8;
+  width: 100%;
+  height: 17rem;
+  margin: 0 0 0 0;
+  display: flex;
+}
+/* ย่อย1 */
+.control .f1000 .f100 .f10 {
+  background: url("./images/Rectangle 42.png") no-repeat;
+  width: 95%;
+  height: 15rem;
+  margin: 2rem 0 0 2rem;
+  border-radius: 1rem;
+}
+.control .f1000 .f100 .f10 h1 {
+  color: #ffffff;
+  margin: 2rem 0 0 1rem;
+  font-size: 2rem;
+}
+.control .f1000 .f100 .f10 p {
+  color: #ffffff;
+  margin: 1rem 0 0 1rem;
+  font-size: 1rem;
+}
+.control .f1000 .f100 .f10 li {
+  color: #ffffff;
+  margin: 0 0 0 1rem;
+  font-size: 1rem;
+}
+.control .f1000 .f100 .f10 ul {
+  color: #ffffff;
+  margin: 0 0 0 1rem;
+  font-size: 1rem;
+}
+
+/* จบส่วนที่6*/
+/* .............................................................................................; */
+/* ส่วนที่7 */
+.control .g1000 {
+  /* background-color: red; */
+  width: 100%;
+  height: 17rem;
+  margin: 0 0 0 0;
+  position: relative;
+}
+.control .g1000 .g100 {
+  background-color: #f8f8f8;
+  width: 100%;
+  height: 17rem;
+  margin: 0 0 0 0;
+  display: flex;
+}
+/* ย่อย1 */
+.control .g1000 .g100 .g10 {
+  background: url("./images/Rectangle 42.png") no-repeat;
+  width: 95%;
+  height: 15rem;
+  margin: 2rem 0 0 2rem;
+  border-radius: 1rem;
+}
+.control .g1000 .g100 .g10 h1 {
+  color: #ffffff;
+  margin: 2rem 0 0 1rem;
+  font-size: 2rem;
+}
+.control .g1000 .g100 .g10 p {
+  color: #ffffff;
+  margin: 1rem 0 0 1rem;
+  font-size: 1rem;
+}
+.control .g1000 .g100 .g10 li {
+  color: #ffffff;
+  margin: 0 0 0 1rem;
+  font-size: 1rem;
+}
+.control .g1000 .g100 .g10 ul {
+  color: #ffffff;
+  margin: 0 0 0 1rem;
+  font-size: 1rem;
+}
+
+/* จบส่วนที่7*/
+/* .............................................................................................; */
