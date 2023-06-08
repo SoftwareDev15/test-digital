@@ -314,7 +314,7 @@
   loop: true,
   centerSlide: 'true',
   grabCursor: 'true',
-  spaceBetween: 200,
+  // spaceBetween: 200,
 
   // Navigation arrows
   navigation: {
@@ -328,9 +328,11 @@
     },
     800: {
       slidesPerView: 2,
+      spaceBetween:0,
     },
     1020: {
       slidesPerView: 4,
+      spaceBetween:100,
     },
   }
 
