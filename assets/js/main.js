@@ -312,14 +312,14 @@
  const swiper = new Swiper('.namtarn', {
   // Optional parameters
   loop: true,
-  slidesPerView: 3,
   centerSlide: 'true',
   grabCursor: 'true',
+  spaceBetween: 200,
 
   // Navigation arrows
   navigation: {
     nextEl: '.swiper-button-next',
-    nextEl: '.swiper-button-next',
+    
    
   },
   breakpoints: {
@@ -330,7 +330,7 @@
       slidesPerView: 2,
     },
     1020: {
-      slidesPerView: 3,
+      slidesPerView: 4,
     },
   }
 
