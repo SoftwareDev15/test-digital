@@ -326,9 +326,15 @@
 const swiper = new Swiper(".namtarn", {
   // Optional parameters
   loop: true,
+<<<<<<< HEAD
   centerSlide: "true",
   grabCursor: "true",
   spaceBetween: 200,
+=======
+  centerSlide: 'true',
+  grabCursor: 'true',
+  // spaceBetween: 200,
+>>>>>>> a2893530d9bff1253f1f0877bcb64ab3c891314e
 
   // Navigation arrows
   navigation: {
@@ -340,9 +346,11 @@ const swiper = new Swiper(".namtarn", {
     },
     800: {
       slidesPerView: 2,
+      spaceBetween:0,
     },
     1020: {
       slidesPerView: 4,
+      spaceBetween:100,
     },
   },
 });

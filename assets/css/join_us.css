@@ -1,47 +1,31 @@
 /* ----- Hero section ----- */
 #hero-1 {
   width: 100%;
-  height: 70vh;
-  padding-top: 110px;
+  height: 100vh;
   position: relative;
+  background: #f5f8fd url("../img/") center top no-repeat;
+  background: linear-gradient(
+      92.27deg,
+      rgba(222, 217, 217, 0.9) 48.14%,
+      rgba(229, 220, 220, 0) 138.55%
+    ),
+    url("../img/hero-bg.jpg");
+  background-size: cover;
+  padding-top: 100px;
 }
 
-#hero-1 .bigS{
-  width: 120vh;
-  height: 60vh;
-  margin: 0 30%;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+#hero-1 h1 {
+  color: #182fad;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-bottom: 20vh;
+  padding-left: 5vh;
+  font-size: calc(80% + 20vmin);
+  font-weight: 800;
 }
 
-#hero-1 .square span {
-  margin: auto;
-} 
-
-#hero-1 .square{
-  width: 40vh;
-  height: 20vh;
-  display: flex;
-}
-
-#hero-1 .square:nth-of-type(1) {
-  background-color: #182fad;
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
-}
-
-#hero-1 .square:nth-of-type(2) {
-  background-color: #182fad;
-  grid-column: 2 / 2;
-  grid-row: 2 / 2;
-}
-
-#hero-1 .square:nth-of-type(3) {
-  background-color: #182fad;
-  grid-column: 1 / 3;
-  grid-row: 1 / 3;
-  place-self: center;
+#hero-1 #hero-content {
+  margin: 20% 20%;
 }
 
 /* ------ section contentDA ------ */
@@ -49,55 +33,31 @@
   width: 60vh;
   height: 10vh;
   display: flex;
-  background-color: aquamarine;
+  background-color: #182fad;
   margin: 0 20px;
 }
 
 #contentDA .content-compo{
   display: grid;
-  border: 1px solid black;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
+  margin: 3% 0;
 }
-
-/* #content .colump-1 {
-  margin: auto;
-} */
 
 #contentDA .colump-1 .cardd .icon{
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  background-color: aqua;
-  margin: 10px 40%;
+  width: 80px;
+  height: 80px;
+  background-color: #a3b1ff;
+  margin: 15px 40%;
 }
 
 #contentDA .colump-1 .cardd  .icon img{
-  width: 40px;
+  width: 50px;
   object-fit: cover;
   object-position: 50% 50%;
-  margin: 15% 15%;
+  margin: 20% 20%;
 }
-
-/* #contentDA .colump-1 .cardd .card-head img{
-  background-color: #3c4eb3;
-  width: 10vh;
-  height: 10vh;
-  margin:  5px auto;
-  justify-content: center;
-  border-radius: 100%;
-  
-} */
-
-/* 
-#contentDA .colump-1 .cardd .card-head .icon{
-  width: 60px;
-  height: 60px;
-  display: table-cell;
-  vertical-align: middle; 
-  text-align: center;
-  text-decoration: none;
-} */
 
 #contentDA .colump-1 .cardd .card-title {
   margin-top: 5px;
@@ -107,4 +67,104 @@
 #contentDA .colump-1 .cardd .card-content {
   text-align: center;
   margin: 0 10px;
+}
+
+/* ---- testimonials section ------ */
+#testimo .square {
+  width: 70vh;
+  height: 10vh;
+  display: flex;
+  background-color: #182fad;
+  margin: 0 20px;
+}
+
+#testimo .slide-people {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 3% 0;
+  padding-bottom: 10%;
+}
+
+#testimo .slide-people .slide-card .card-img{
+  width: 25vh;
+  height: 25vh;
+  border-radius: 50%;
+  margin: 5% 15%;
+  background-color: #6f85ff;
+}
+
+#testimo .slide-people .slide-card .card-img img{
+  width: 25vh;
+  height: 25vh;
+  border-radius: 40%;
+  margin: 3% 12%;
+}
+
+#testimo .slide-people .slide-card .card-name {
+  text-align: center;
+  margin: 5px 0;
+}
+
+#testimo .slide-people .slide-card .card-position {
+  text-align: center;
+  margin: 5px 0;
+}
+
+/* --------- hero available section --------- */
+#available {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: #f5f8fd url("../img/") center top no-repeat;
+  background: linear-gradient(
+      92.27deg,
+      rgba(222, 217, 217, 0.9) 48.14%,
+      rgba(229, 220, 220, 0) 138.55%
+    ),
+    url("../img/hero-bg.jpg");
+  background-size: cover;
+  padding-top: 160px;
+}
+
+#available h2 {
+  color: #182fad;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-size: calc(80% + 10vmin);
+  font-weight: 700;
+}
+
+#available .hero-head {
+  margin: 0 20%;
+}
+
+#available #hero-mess {
+  color: #000000;
+  font-size: 19px;
+  margin-top: 10px;
+}
+
+/* ------- engineer section -------- */
+#engineer .elec {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+#engineer .elec .eng-col1 {
+  align-items: center;
+  margin: 5% 10%;
+}
+
+#engineer .elec .eng-col1 img {
+  width: 550px;
+  height: 450px;
+}
+
+#engineer .elec .eng-col2 {
+  background-color: #a3b1ff;
+  margin: 10px;
+}
+
+#engineer .elec .eng-col2 .quali {
+  
 }

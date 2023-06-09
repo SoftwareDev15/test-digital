@@ -88,20 +88,102 @@ h6 {
 # why-us
 --------------------------------------------------------------*/
 
-@media screen and (max-width: 1201px) {
-  #why-us .container-fluid .content-why {
-    grid-template-columns: 1fr;
+@media screen and (max-width: 835px) {
+  
+  .why-content{
+    display: flex;
+    flex-direction: column;
   }
 
-  #why-us .container-fluid .content-why .image {
-    justify-content: start;
+  .why-content .box-2{
+    row-gap: 10px;
   }
 
-  #why-us .container-fluid .content-why .image img {
+  .card-why  {
+   margin-top: 30px;
+   margin-bottom: 0px;
   }
+
 }
 
-.content-why {
+@media screen and (max-width: 516px){
+  .card-why {
+    flex-direction: column;
+  }
+
+  .card-why h3 {
+    margin-top: 10px;
+    justify-content: center;
+  }
+
+}
+
+
+#why-us {
+  margin: 0px 40px;
+}
+
+.why-content {
+
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+  margin: 0px 20px;
+
+}
+
+.box-1 {
+  
+}
+
+.box-1 img {
+  width: 100%;
+  height: auto;
+
+
+}
+
+.box-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between 
+  
+}
+
+.card-why  {
+  display: flex;
+  column-gap: 15px;
+  
+}
+
+.card-why .logo-why {
+  display: flex;
+  justify-content: center;
+
+}
+
+.card-why img{
+
+  width: 80px;
+  height: 80px;
+  padding: 20px;
+  background-color: #182fad;
+}
+
+.card-why h3{
+  display: flex;
+  font-size: 20px !important;
+  font-weight: bold !important;
+  margin-bottom: 10px !important;
+}
+
+.card-why p{
+  font-size: 13px !important;
+  margin-bottom: 0px !important;
+
+}
+
+/* .content-why {
   display: grid;
   padding: 0px 30px;
   grid-template-columns: 50% 50%;
@@ -160,7 +242,7 @@ h6 {
   text-align: left !important;
   font-size: 32px !important;
   font-weight: normal;
-}
+} */
 
 .namtarn .swiper {
   height: 800x;
