@@ -1,8 +1,194 @@
-.control {
-  background-color: red;
+.a {
+  background: url("./images/Copy of Red White Attractive 10 Ways To Earn Money Youtube Thumbnail (7).png")
+    no-repeat;
   height: 30rem;
+  margin: 4rem 0 0 0;
+  width: 100%;
 }
-.centrol .a1 {
-  background-color: #000000;
-  height: 35rem;
+.a .aa {
+  height: 20rem;
+  width: 20rem;
+}
+.a .aa img {
+  height: 20rem;
+  width: 25rem;
+  margin: -18rem 0 0 50rem;
+}
+.a .aaa {
+}
+.a .aaa .aaaa {
+  display: flex;
+}
+
+.a .aaa .aaaa h1 {
+  margin: 8rem 0 0 12rem;
+  font-size: 3.3rem;
+  font-weight: 600;
+  color: #fff;
+}
+.a .aaa .aaaa p {
+  margin: 12.5rem 0 0 -15rem;
+  width: 33rem;
+  font-size: 18px;
+  font-weight: 50;
+  color: #fff;
+}
+.a .aaa .w3-container {
+  height: 2.5rem;
+  width: 30rem;
+  margin: 3rem 0 0 7.5rem;
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+}
+
+.b {
+  background: url("./images/Copy of Red White Attractive 10 Ways To Earn Money Youtube Thumbnail (9).png")
+    no-repeat;
+  height: 48rem;
+}
+.b .b1 {
+  display: flex;
+  justify-content: center;
+}
+.b .b1 .b11 {
+  width: 60rem;
+  margin: 2rem 0 0 0;
+}
+.b .b1 h1 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 40px;
+  margin: 0 0 1.5rem 6rem;
+}
+.b .b1 p {
+  color: #fff;
+  font-size: 18px;
+}
+.b .b2 {
+  width: 100%;
+  height: 20rem;
+  display: flex;
+}
+.b .b2 .b22 {
+  width: 90%;
+}
+.b .b2 .b22 img {
+  width: 27rem;
+  height: 27rem;
+  margin: 0 0 0 5rem;
+}
+.b .b2 .b222 p {
+  font-size: 18px;
+  margin: 0 0 0 1rem;
+  width: 90%;
+  color: #fff;
+}
+.b .b2 .b222 h1 {
+  color: #fff;
+  font-size: 38px;
+  margin: 3rem 0 2rem 1rem;
+}
+.b .w3-container1 {
+  height: 2.5rem;
+  margin: 2rem 0 0 7.5rem;
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+}
+.c {
+  background-color: red;
+  height: 50rem;
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+}
+.c .c1 {
+  background-color: #555;
+  height: 50rem;
+  width: 23rem;
+}
+.c .c1 .c11 {
+  background-color: #fff;
+  height: 14rem;
+  width: 23rem;
+  margin: 1rem 0 0 0;
+}
+.c .c1 .c11 img {
+  height: 3rem;
+  width: 3rem;
+}
+.c .c1 .c11 h1 {
+  font-size: 20px;
+  font-weight: 570;
+  margin: 1rem 0 0 0;
+}
+.c .c1 .c11 p {
+  font-weight: 200;
+  margin: 1rem 0 0 0;
+}
+.c .c1 .c11 .c111 {
+  display: flex;
+  background-color: red;
+  width: 10rem;
+}
+.c .c1 .c11 .c111 .c1111 {
+  display: flex;
+  background-color: #900;
+  width: 10rem;
+}
+.c .c1 .c11 .c111 .c1111 .bi-arrow-right {
+  margin: 1rem 0 0 1rem;
+}
+.c .c1 .c11 .c111 .c1111 p {
+  width: 10rem;
+  margin: 1rem 0 0 1rem;
+}
+.c .c2 {
+  background-color: #555;
+  height: 50rem;
+  width: 23rem;
+}
+.c .c2 .c21 {
+  background-color: #fff;
+  height: 14rem;
+  width: 23rem;
+  margin: 1rem 0 0 0;
+}
+.c .c2 .c21 img {
+  height: 3rem;
+  width: 3rem;
+}
+.c .c2 .c21 h1 {
+  font-size: 20px;
+  font-weight: 570;
+  margin: 1rem 0 0 0;
+}
+.c .c2 .c21 p {
+  font-weight: 200;
+  margin: 1rem 0 0 0;
+}
+.c .c3 {
+  background-color: #555;
+  height: 50rem;
+  width: 23rem;
+}
+.c .c3 .c31 {
+  background-color: #fff;
+  height: 14rem;
+  width: 23rem;
+  margin: 1rem 0 0 0;
+}
+.c .c3 .c31 img {
+  height: 3rem;
+  width: 3rem;
+}
+.c .c3 .c31 h1 {
+  font-size: 20px;
+  font-weight: 570;
+  margin: 1rem 0 0 0;
+}
+.c .c3 .c31 p {
+  font-weight: 200;
+  margin: 1rem 0 0 0;
 }

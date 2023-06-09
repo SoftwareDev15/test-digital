@@ -19,6 +19,7 @@
 
     <!-- การใช้ aos Animate on Scroll -->
     <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
 
     <!-- bootstrap css framework -->
     <link
@@ -43,6 +44,11 @@
     <link href="assets/css/style.css" rel="stylesheet" />
     <script type="module" src="assets/js/tamplate.js"></script>
     <link rel="stylesheet" href="Product.css" />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
 
     <!-- =======================================================
   * Template Name: Rapid
@@ -52,31 +58,308 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
   </head>
+
   <body>
+    <!-- ======= Header ======= -->
     <header
       id="header"
       class="fixed-top d-flex align-items-center header-transparent"
     >
       <my-header></my-header>
     </header>
-    <!-- ............................................................................... -->
     <!-- End Header -->
+    <!-- ...............................................................................................p -->
+    <!-- ส่วนที่1 -->
+    <div class="a">
+      <div class="aaa">
+        <div class="aaaa">
+          <h1>Products</h1>
+          <p>
+            Enterprise resource planning (ERP) is a software system that helps
+            you run your entire business, supporting automation and processes in
+            finance, human resources, manufacturing, supply chain, services,
+            procurement, and more.
+          </p>
+        </div>
 
-    <!-- ส่วนควบคุมทั้งหมด -->
-    <div class="control">
-      <!-- ส่วนที่1 -->
-      <div class="a1">
-        <div class="product1.1">
-          <div class="product1.2">
-            <div class="product1.3">test</div>
-          </div>
+        <div class="w3-container">
+          <a href="#" class="w3-button w3-blue">Request a demo</a>
+          <a href="#" class="w3-button w3-blue">Request a demo</a>
         </div>
       </div>
+      <div class="aa">
+        <img src="./images/pngegg (18).png" alt="" />
+      </div>
+    </div>
 
-      <!-- จบส่วนที่1 -->
-      <!-- ส่วนที่2 -->
+    <!-- จบส่วนที่1 -->
+    <!-- ...............................................................................................p -->
+    <!-- ส่วนเอฟเฟค -->
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 80%;
+      }
 
-      <!-- จบส่วนที่2 -->
+      body {
+        background: #fff;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 80%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 25%;
+        height: 60%;
+        object-fit: cover;
+        object-position: top;
+        margin: 0 0 0 25rem;
+      }
+    </style>
+
+    <!-- ...............................................................................................s -->
+    <body>
+      <!-- Swiper -->
+
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="swiper-slide-test">
+              <img src="./images/pngwing.com - Copy.png" alt="" />
+              <p>test</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide-test">
+              <img src="./images/pngegg (19).png" alt="" />
+              <p>test</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide-test">
+              <img src="./images/pngegg (21).png" alt="" />
+              <p>test</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide-test">
+              <img src="./images/pngwing.com - Copy.png" alt="" />
+              <p>test</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide-test">
+              <img src="./images/pngegg (16).png" alt="" />
+              <p>test</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide-test">
+              <img src="./images/pngegg (22).png" alt="" />
+              <p>test</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide-test">
+              <img src="./images/pngegg (14).png" alt="" />
+              <p>test</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide-test">
+              <img src="./images/pngwing.com - Copy.png" alt="" />
+              <p>test</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide-test">
+              <img src="./images/pngegg (18).png" alt="" />
+              <p>test</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <!-- Swiper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          cssMode: true,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+          mousewheel: true,
+          keyboard: true,
+        });
+      </script>
+    </body>
+    <!-- จบส่วนเอฟเฟค -->
+    <!-- ...............................................................................................p -->
+
+    <div class="b">
+      <div class="b1">
+        <div class="b11">
+          <h1>The most agile ERP on the planet</h1>
+          <p>
+            As intuitive as ERPNext is, like any other business-critical
+            solution, it is always recommended to take the help of qualified
+            professionals to ensure that your system is optimally configured as
+            per your business requirements. Frappe’s Partner Ecosystem consists
+            of highly experienced individuals, certified to handle even the most
+            complex use cases pertaining to your industry. You can engage with
+            our partner network which will be able to craft a tailor-made
+            solution appropriate for your business.
+          </p>
+        </div>
+      </div>
+      <hr
+        style="
+          border-width: 3px;
+          display: block;
+          color: #fff;
+          width: 60%;
+          margin-bottom: 0.5em;
+          margin-left: auto;
+        "
+      />
+      <div class="b2">
+        <div class="b22">
+          <img src="./images/pngegg (6).png" alt="" />
+        </div>
+        <div class="b222">
+          <h1>Manage your customers</h1>
+          <p>
+            Assign dedicated account managers, Tax IDs, and tax categories for
+            automatic tax calculations. Use different currencies for your
+            overseas customers, and the exchange rates will be calculated
+            automatically.
+          </p>
+          <p>
+            Store multiple contacts, emails, and phone numbers against a
+            customer. Set a credit limit on customers to prevent further sales
+            for customers with a big tab. Set up a loyalty program to build
+            rapport with your customers.
+          </p>
+        </div>
+      </div>
+      <div class="w3-container1">
+        <a href="#" class="w3-button w3-blue">Request a demo</a>
+        <a href="#" class="w3-button w3-blue">Request a demo</a>
+      </div>
+    </div>
+    <!-- .........................................................................................p -->
+    <div class="c">
+      <div class="c1">
+        <div class="c11">
+          <img src="./images/pngegg (6).png" alt="" />
+          <h1>everything you need</h1>
+          <p>
+            Get a real-time view of your cash flow. Full-fledged accounting
+            module covering every aspect of bookkeeping.
+          </p>
+          <div class="c111">
+            <div class="c1111">
+              <a href="#" style="color: #000"> <p>Learn more</p> </a>
+              <i class="bi bi-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+        <div class="c11">
+          <img src="./images/pngegg (6).png" alt="" />
+          <h1>test</h1>
+          <p>
+            Get a real-time view of your cash flow. Full-fledged accounting
+            module covering every aspect of bookkeeping.
+          </p>
+        </div>
+        <div class="c11">
+          <img src="./images/pngegg (6).png" alt="" />
+          <h1>test</h1>
+          <p>
+            Get a real-time view of your cash flow. Full-fledged accounting
+            module covering every aspect of bookkeeping.
+          </p>
+        </div>
+      </div>
+      <div class="c2">
+        <div class="c21">
+          <img src="./images/pngegg (6).png" alt="" />
+          <h1>test</h1>
+          <p>
+            Get a real-time view of your cash flow. Full-fledged accounting
+            module covering every aspect of bookkeeping.
+          </p>
+        </div>
+        <div class="c21">
+          <img src="./images/pngegg (6).png" alt="" />
+          <h1>test</h1>
+          <p>
+            Get a real-time view of your cash flow. Full-fledged accounting
+            module covering every aspect of bookkeeping.
+          </p>
+        </div>
+        <div class="c21">
+          <img src="./images/pngegg (6).png" alt="" />
+          <h1>test</h1>
+          <p>
+            Get a real-time view of your cash flow. Full-fledged accounting
+            module covering every aspect of bookkeeping.
+          </p>
+        </div>
+      </div>
+      <div class="c3">
+        <div class="c31">
+          <img src="./images/pngegg (6).png" alt="" />
+          <h1>test</h1>
+          <p>
+            Get a real-time view of your cash flow. Full-fledged accounting
+            module covering every aspect of bookkeeping.
+          </p>
+        </div>
+        <div class="c31">
+          <img src="./images/pngegg (6).png" alt="" />
+          <h1>test</h1>
+          <p>
+            Get a real-time view of your cash flow. Full-fledged accounting
+            module covering every aspect of bookkeeping.
+          </p>
+        </div>
+        <div class="c31">
+          <img src="./images/pngegg (6).png" alt="" />
+          <h1>test</h1>
+          <p>
+            Get a real-time view of your cash flow. Full-fledged accounting
+            module covering every aspect of bookkeeping.
+          </p>
+        </div>
+      </div>
     </div>
   </body>
 </html>
