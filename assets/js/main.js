@@ -285,6 +285,7 @@
   });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
  new Swiper(".aomam-slider", {
     slidesPerView: 1,
@@ -301,6 +302,9 @@
   });
 
     /**
+=======
+  /**
+>>>>>>> ad29130f503a600a4c7cbe2fa423a7545a6e4188
 =======
   /**
 >>>>>>> ad29130f503a600a4c7cbe2fa423a7545a6e4188
