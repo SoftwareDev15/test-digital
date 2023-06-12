@@ -1,7 +1,6 @@
-class MyHeader extends HTMLElement{
-    connectedCallback(){
-      this.innerHTML =`
-     
+class MyHeader extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
       <div class="container d-flex align-items-center">
   
         <!-- <h1 class="logo me-auto"><a href="index.html">Rapid</a></h1> -->
@@ -23,7 +22,7 @@ class MyHeader extends HTMLElement{
               </ul>
             </li>
             <li><a class="nav-link scrollto" href="blogs.html">Blogs</a></li>
-            <li><a class="nav-link scrollto" href="join_us.html">Join Us</a></li>
+            <li><a class="nav-link scrollto" href="join-us.html">Join Us</a></li>
             <li><a class="nav-link scrollto " href="portfolio.html">Portfolio</a></li>
             <li><a class="nav-link scrollto" href="contact-us.html">Contact Us</a></li>
             <li><a class="nav-link scrollto" href="helps.html">Helps</a></li>
@@ -39,16 +38,15 @@ class MyHeader extends HTMLElement{
   
       </div>
       
-    ` 
+    `;
   }
 }
 
-customElements.define('my-header', MyHeader)
+customElements.define("my-header", MyHeader);
 
-
-class MyFooter extends HTMLElement{
-  connectedCallback(){
-    this.innerHTML =`
+class MyFooter extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
     
     <footer id="footer" class="section-bg">
     <div class="content-footer">
@@ -116,9 +114,8 @@ class MyFooter extends HTMLElement{
       </div>
     </div>
   </footer>
-  ` 
-}
+  `;
+  }
 }
 
-customElements.define('my-footer', MyFooter)
-
+customElements.define("my-footer", MyFooter);

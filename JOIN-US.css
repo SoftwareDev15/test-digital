@@ -1,0 +1,88 @@
+/* ส่วนควบคุม */
+.control {
+  /* background-color: #3fbfbf; */
+  width: 100%;
+  height: 140rem;
+}
+/* จบส่วนควบคุม */
+/* ............................................................................................. */
+/* ส่วนที่1 */
+.control .a1000 {
+  background-color: #ffffff;
+  width: 100%;
+  height: 30rem;
+  margin: 0 0 0 0;
+  position: relative;
+  display: flex;
+}
+.control .a1000 .a100 {
+  background: url("./images/Rectangle 42.png") no-repeat;
+  width: 70%;
+  height: 30rem;
+  margin: 0 0 0 0;
+  display: flex;
+  align-items: center;
+}
+.control .a1000 .a100 .a10 {
+  /* background-color: #300000; */
+  width: 50%;
+  height: 6rem;
+  margin: 6rem 0 0 14rem;
+}
+.control .a1000 .a100 .a10 h1 {
+  color: #ffffff;
+  margin: 0 0 0 0;
+  font-size: 50px;
+}
+/* .control .a1000 .a100 .a10 p {
+  color: #900000;
+  margin: 0 0 0 0;
+  font-size: 1rem;
+}
+.control .a1000 .a100 .a10 li {
+  color: #900000;
+  margin: 0 0 0 0;
+  font-size: 1rem;
+}
+.control .a1000 .a100 .a10 ul {
+  color: #900000;
+  margin: 0 0 0 0;
+  font-size: 1rem;
+} */
+.control .a1000 .a200 {
+  /* background: url("./images/Untitled design (9).png") no-repeat; */
+  width: 30%;
+  height: 30rem;
+  margin: 0 0 0 0;
+  display: flex;
+  align-items: center;
+}
+.control .a1000 .a200 .a20 {
+  /* background-color: #300000; */
+  width: 60%;
+  height: 15rem;
+  margin: 3rem 0 0 6rem;
+}
+.control .a1000 .a200 .a20 h1 {
+  color: #000000;
+  margin: 0 0 1rem 0;
+  font-size: 28px;
+}
+/* /* .control .a1000 .a200 .a20 p {
+  color: #900000;
+  margin: 0 0 0 0;
+  font-size: 1rem;
+} */
+.control .a1000 .a200 .a20 li {
+  color: #000000;
+  margin: 0 0 0.7rem 0;
+  font-size: 1rem;
+}
+/* .control .a1000 .a200 .a20 ul {
+  color: #900000;
+  margin: 0 0 0 0;
+  font-size: 0.5rem;
+} */
+*/
+/* จบส่วนที่1 */
+/* ............................................................................................. */
